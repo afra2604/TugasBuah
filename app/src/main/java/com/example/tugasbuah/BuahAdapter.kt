@@ -31,7 +31,7 @@ class BuahAdapter(private val listBuah: List<Buah>,
     }
 
     override fun getItemCount(): Int {
-        return 6
+        return listBuah.size
     }
 
     override fun onBindViewHolder(holder: ItemBuahViewHolder, position: Int) {
